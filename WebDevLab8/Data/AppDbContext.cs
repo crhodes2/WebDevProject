@@ -18,7 +18,7 @@ namespace WebDevProject.Data
         public virtual DbSet<Pokemon> Pokemons {get; set;}
         public virtual DbSet<Vitamins> Vitamins { get; set; }
 
-        public System.Data.Entity.DbSet<WebDevProject.Models.View.VitaminsViewModel> VitaminsViewModels { get; set; }
+        public System.Data.Entity.DbSet<WebDevProject.Models.View.VitaminViewModel> VitaminViewModels { get; set; }
     }
 
     public class AppDbInitializer : DropCreateDatabaseIfModelChanges<AppDbContext>

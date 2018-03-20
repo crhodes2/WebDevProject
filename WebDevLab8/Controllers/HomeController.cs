@@ -26,5 +26,46 @@ namespace WebDevProject.Controllers
 
             return View();
         }
+
+        public ActionResult Appt()
+        {
+            ViewBag.Message = "Please fill out this form below to set up an appointment with our specialist, Nurse Joy.";
+
+            return View();
+        }
+
+        public ActionResult Groom()
+        {
+            ViewBag.Message = "Grooming";
+
+            return View();
+        }
+
+        public ActionResult Nutrition()
+        {
+            ViewBag.Message = "Nutrition";
+
+            return View();
+        }
+
+        public ActionResult Success()
+        {
+            ViewBag.Message = "Thank you";
+
+            return View();
+        }
+
+        public ActionResult Health()
+        {
+            ViewBag.Message = "Your Pokemon's health is very important to us";
+
+            return View();
+        }
+        public ActionResult Pest()
+        {
+            ViewBag.Message = "Get rid of pests for good";
+
+            return View();
+        }
     }
 }

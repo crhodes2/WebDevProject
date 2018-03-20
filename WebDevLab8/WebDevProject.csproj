@@ -206,7 +206,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PokemonController.cs" />
-    <Compile Include="Controllers\VitaminsController.cs" />
+    <Compile Include="Controllers\VitaminController.cs" />
+    <Compile Include="Databases\InMemoryDatabase.cs" />
     <Compile Include="Data\AppDbContext.cs" />
     <Compile Include="Data\Entities\Pokemon.cs" />
     <Compile Include="Data\Entities\Vitamins.cs" />
@@ -217,7 +218,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\View\PokemonViewModel.cs" />
-    <Compile Include="Models\View\VitaminsViewModel.cs" />
+    <Compile Include="Models\View\VitaminViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IPokemonRepository.cs" />
     <Compile Include="Repositories\PokemonRepository.cs" />
@@ -291,9 +292,14 @@
     <Content Include="Views\Pokemon\Edit.cshtml" />
     <Content Include="Views\Home\Groom.cshtml" />
     <Content Include="Views\Home\Nutrition.cshtml" />
+    <Content Include="Views\Vitamins\List.cshtml">
+      <BrowseToURL>~/Vitamins/List</BrowseToURL>
+    </Content>
+    <Content Include="Views\Vitamin\VitaminsList.cshtml" />
     <Content Include="Views\Home\Appt.cshtml" />
-    <Content Include="Views\Vitamins\List.cshtml" />
-    <Content Include="Views\Vitamins\Create.cshtml" />
+    <Content Include="Views\Home\Success.cshtml" />
+    <Content Include="Views\Home\Health.cshtml" />
+    <Content Include="Views\Home\Pest.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

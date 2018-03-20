@@ -4,11 +4,13 @@ using System.Web.Mvc;
 using WebDevProject.Data;
 using WebDevProject.Data.Entities;
 using WebDevProject.Models.View;
+using WebDevProject.Databases;
 
 namespace WebDevProject.Controllers
 {
     public class VitaminsController : Controller
     {
+
         public ActionResult List(int pokemonId)
         {
             ViewBag.PokemonId = pokemonId;
